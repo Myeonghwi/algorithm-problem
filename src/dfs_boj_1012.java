@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_1012 {
+public class dfs_boj_1012 {
 
     static Scanner sc = new Scanner(System.in);
     static int T = sc.nextInt();

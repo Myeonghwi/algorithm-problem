@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class boj_2164 {
+public class queue_boj_2164 {
 
     static int front = 1;
     static int rear = 0;

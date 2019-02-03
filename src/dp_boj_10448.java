@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class boj_10448 {
+public class dp_boj_10448 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int testNum = sc.nextInt();

@@ -1,19 +1,16 @@
 import java.util.*;
 
-
-public class boj_2193 {
+public class dp_boj_11726 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        long dp[] = new long[n + 1];
-        dp[0] = 0;
-        dp[1] = 1;
+        long d[] = new long[n + 1];
+        d[0] = 1;
+        d[1] = 1;
 
         for(int i = 2; i <= n; i++) {
-            dp[i] = dp[i - 2] + dp[i - 1];
+            d[i] = (d[i - 2] + d[i - 1]) % 10007;
         }
-        System.out.println(dp[n]);
-
-
+        System.out.println(d[n]);
     }
 }

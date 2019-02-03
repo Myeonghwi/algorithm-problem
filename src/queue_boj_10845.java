@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class boj_10845 {
+public class queue_boj_10845 {
 
     static StringTokenizer str;
 

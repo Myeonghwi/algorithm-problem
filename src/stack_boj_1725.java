@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.util.Collections;
 
-public class boj_1725 {
+public class stack_boj_1725 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class boj_9465 {
+public class dp_boj_9465 {
     public static void main(String[] args) {
         int[][] dp = new int[2][100001];
         int[][] sticker = new int[2][100001];

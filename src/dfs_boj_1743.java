@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class boj_1743 {
+public class dfs_boj_1743 {
 
     static Scanner sc = new Scanner(System.in);
     static int M;

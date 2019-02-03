@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class boj_2667 {
+public class dfs_boj_2667 {
     static Scanner sc = new Scanner(System.in);
     static int N = sc.nextInt();
     static int[][] mat = new int[N][N];

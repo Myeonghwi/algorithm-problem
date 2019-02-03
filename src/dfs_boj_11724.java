@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Stack;
 
-public class boj_11724 {
+public class dfs_boj_11724 {
     static int MAX = 10001;
     static Scanner sc = new Scanner(System.in);
     static private int N = sc.nextInt();

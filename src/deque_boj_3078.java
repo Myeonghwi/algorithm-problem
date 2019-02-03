@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.Deque;
 
 
-public class boj_3078 {
+public class deque_boj_3078 {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
