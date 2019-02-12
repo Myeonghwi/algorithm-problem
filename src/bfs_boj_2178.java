@@ -69,14 +69,15 @@ public class bfs_boj_2178 {
             System.out.println(" ");
         }
     }
-}
 
-class Point {
-    int x;
-    int y;
+    private static class Point {
+        int x;
+        int y;
 
-    Point(int x, int y) {
-        this.x = x;
-        this.y = y;
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
     }
 }
+

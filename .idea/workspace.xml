@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7dc0b850-95f9-4cdd-9664-3c6bb5d05e50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bfs_boj_2178.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bfs_boj_6593.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/bfs_boj_2644.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/bfs_boj_2644.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/dfs_boj_1260.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs_boj_1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs_boj_1260.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bfs_boj_2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs_boj_2178.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,31 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dfs_boj_11724.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dfs_boj_1743.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bfs_boj_1260.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="420">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#438#447#0" expanded="true" />
@@ -51,16 +28,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bfs_boj_2178.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="81" selection-end-column="1" />
+            <state relative-caret-position="589">
+              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2721#2722#0" expanded="true" />
                 <element signature="e#2746#2747#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bfs_boj_2644.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bfs_boj_6593.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -152,6 +150,10 @@
       <find>str</find>
       <find>dx</find>
       <find>visited</find>
+      <find>DFS</find>
+      <find>start</find>
+      <find>ans</find>
+      <find>a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,12 +211,13 @@
         <option value="$PROJECT_DIR$/src/bfs_boj_2644.java" />
         <option value="$PROJECT_DIR$/src/bfs_boj_1260.java" />
         <option value="$PROJECT_DIR$/src/bfs_boj_2178.java" />
+        <option value="$PROJECT_DIR$/src/bfs_boj_6593.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1074" />
-    <option name="y" value="119" />
+    <option name="x" value="1002" />
+    <option name="y" value="36" />
     <option name="width" value="2560" />
     <option name="height" value="1359" />
   </component>
@@ -250,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549976607728" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549980095019" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -269,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bfs_boj_2178">
+  <component name="RunManager" selected="Application.bfs_boj_6593">
     <configuration name="bfs_boj_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bfs_boj_1260" />
       <module name="algorithm" />
@@ -291,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dfs_boj_1743" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs_boj_1743" />
+    <configuration name="bfs_boj_6593" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bfs_boj_6593" />
       <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bfs_boj_6593" />
         <item itemvalue="Application.bfs_boj_2178" />
         <item itemvalue="Application.bfs_boj_2644" />
         <item itemvalue="Application.bfs_boj_1260" />
         <item itemvalue="Application.dfs_boj_2667" />
-        <item itemvalue="Application.dfs_boj_1743" />
       </list>
     </recent_temporary>
   </component>
@@ -338,9 +341,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1074" y="119" width="2560" height="1359" extended-state="0" />
+    <frame x="1002" y="36" width="2560" height="1359" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.09451946" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.09451946" />
       <window_info id="Structure" order="1" sideWeight="0.5019531" side_tool="true" weight="0.15665236" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2044199" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2044199" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30228886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -462,16 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs_boj_2644.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dfs_boj_2667.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -578,17 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bfs_boj_1260.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -596,15 +579,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs_boj_1260.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs_boj_2644.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bfs_boj_2178.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="589">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2721#2722#0" expanded="true" />
             <element signature="e#2746#2747#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bfs_boj_6593.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
