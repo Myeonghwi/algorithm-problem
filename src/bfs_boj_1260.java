@@ -3,7 +3,7 @@ import java.util.Stack;
 import java.util.Queue;
 import java.util.LinkedList;
 
-public class dfs_boj_1260 {
+public class bfs_boj_1260 {
     static int MAX = 1001;
     static Scanner sc = new Scanner(System.in);
     static private int N = sc.nextInt();
