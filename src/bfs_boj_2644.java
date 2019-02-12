@@ -8,7 +8,7 @@ class bfs_boj_2644 {
     static private int person1 = sc.nextInt() - 1;
     static private int person2 = sc.nextInt() - 1;
     static private int M = sc.nextInt();
-    static private int[][] adj = new int[N][N];
+    static private int[][] mat = new int[N][N];
     static private int[] visited = new int[N];
     static private Queue<Integer> queue = new LinkedList<Integer>();
 
@@ -18,8 +18,8 @@ class bfs_boj_2644 {
             int parent = sc.nextInt() - 1;
             int child = sc.nextInt() - 1;
 
-            adj[parent][child] = 1;
-            adj[child][parent] = 1;
+            mat[parent][child] = 1;
+            mat[child][parent] = 1;
         }
 
         BFS(person1, person2);
@@ -41,7 +41,7 @@ class bfs_boj_2644 {
                 int curr = queue.poll();
 
                 for (int j = 0; j < N; j++) {
-                    if (adj[curr][j] == 1 && visited[j] == 0) {
+                    if (mat[curr][j] == 1 && visited[j] == 0) {
                         visited[j] = 1;
                         queue.add(j);
 

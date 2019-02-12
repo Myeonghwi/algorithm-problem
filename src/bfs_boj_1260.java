@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Stack;
 import java.util.Queue;
 import java.util.LinkedList;
 
@@ -11,13 +10,9 @@ public class bfs_boj_1260 {
     static private int V = sc.nextInt();
     static private int[][] mat = new int[MAX][MAX];
     static private Queue<Integer> queue = new LinkedList<Integer>();
-    static private Stack<Integer>[] stack = new Stack[MAX];
     static private boolean[] visited = new boolean[MAX];
 
     public static void main(String[] args) {
-        for (int i = 0; i < MAX; i++)
-            stack[i] = new Stack<Integer>();
-
         for (int i = 0; i < M; i++) {
             int u = sc.nextInt();
             int v = sc.nextInt();
