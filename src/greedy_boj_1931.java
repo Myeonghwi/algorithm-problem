@@ -12,11 +12,14 @@ public class greedy_boj_1931 {
             arr[i][1] = sc.nextInt();
         }
 
-        // 종료시간에 따라 sort
+
+
+        // 종료시간에 따라 오름차순 sort
+
+
         for (int i = 0; i < N; i++) {
-            //현재 시작시간이 이전 종료시간보다 늦을 경우
             if (arr[i][0] >= end) {
-                end = arr[i][1];    //현재 종료시간을 다음 시작시간과 비교하기위해 저장
+                end = arr[i][1];
                 answer++;
             }
         }
