@@ -4,8 +4,7 @@ public class brute_boj_1018 {
     static int N, M;
     static int BOUND = 8;
     static char[][] mat;
-    static int numberOfChange = 0;
-    static int minChange = 100;
+    static int minChange = 1000;
     static int answer = 0;
 
     public static void main(String[] args) {
@@ -23,49 +22,31 @@ public class brute_boj_1018 {
     }
 
     private static void Process() {
-        for (int i = 0; i <= N - BOUND; i++)
-            for (int j = 0; j <= M - BOUND; j++)
+        for (int i = 0; i <= N - (BOUND - 1); i++)
+            for (int j = 0; j <= M - (BOUND - 1); j++)
                 minChange = Math.min(minChange, _Search(i, j));
         System.out.print(minChange);
     }
 
     private static int _Search(int x, int y) {
-        numberOfChange = 0;
-        char initColor = mat[x][y];
-        char currentColor;
-        char nextColor;
-        int newLineCorrect = 1;
+        int cnt1 = 0;
+        int cnt2 = 0;
 
-        for (int i = x; i < BOUND; i++) {
-            // 첫줄 시작이 아닐 경우
-            if (i != x) {
-                initColor = _nextColor(initColor);
-                if (initColor != mat[i][0]) {
-                    newLineCorrect = 0;
-                }
-            }
-
-            for (int j = y; j < BOUND; j++) {
-                if (newLineCorrect == 1) {
-                    currentColor = mat[i][j];
-                    nextColor = _nextColor(currentColor);
-                    if (currentColor == nextColor) {
-                        // 틀린부분
-                        // 다음색을 바꿔줄 필요 X
-                        numberOfChange++;
-                        nextColor = _nextColor(currentColor);
-                    }
-                }
+        for (int i = x; i < x + BOUND; i++) {
+            for (int j = y; j < y + BOUND; j++) {
+                char cp = ((i + j) % 2 == 0) ? 'W' : 'B';
+                if (mat[i][j] != cp)
+                    cnt1++;
+                else
+                    cnt2++;
             }
         }
-        return numberOfChange;
-    }
-
-    private static char _nextColor(char beforeColor) {
-        if (beforeColor == 'W')
-            return 'B';
+        if(cnt1 > cnt2)
+            answer = cnt2;
         else
-            return 'W';
+            answer = cnt1;
+
+        return answer;
     }
 
     private static void Print() {
