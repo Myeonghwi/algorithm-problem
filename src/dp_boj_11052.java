@@ -4,7 +4,7 @@ public class dp_boj_11052 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int p[] = new int[1001];
+        int p[] = new int[10001];
         int dp[] = new int[1001];
 
         dp[0] = 0;
